@@ -65,7 +65,6 @@ html {
 .buttons-container {
   display: flex;
   align-items: center;
-  gap: 16px; /* Espacio entre los botones */
 }
 
 .buttons-container button {
