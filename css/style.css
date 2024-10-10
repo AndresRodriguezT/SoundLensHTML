@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+  background-color: #030504;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Espacio entre logo/navbar y botones */
+  align-items: center;
+  padding: 10px 32px; /* Espaciado alrededor */
+  background-color: #030504;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 12px; /* Espacio entre logo y texto */
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fdeeee;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 32px; /* Espacio entre logo y navbar */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 24px; /* Espacio entre los elementos del navbar */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* Espacio entre los botones */
+}
+
+.buttons-container button {
+  background-color: #1db954;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.buttons-container button:hover {
+  opacity: 1;
+}
+
+.sign-in {
+  background: none;
+  border: 1px solid #1db954;
+  color: #1db954;
+}
+
+.sign-up {
+  background-color: #1db954;
+  color: #000;
+}
