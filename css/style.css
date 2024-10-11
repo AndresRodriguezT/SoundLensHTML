@@ -7,15 +7,62 @@ html {
 
 .header {
   display: flex;
-  justify-content: space-between; /* Espacio entre logo/navbar y botones */
+  justify-content: space-between;
   align-items: center;
   margin-top: 32px;
   background-color: #030504;
 }
 
+.main-content {
+  text-align: left;
+  margin: 80px 32px; /* Espaciado alrededor del contenido principal */
+  color: #f2f2f7;
+}
+
 .left-content {
   display: flex;
-  align-items: center;
+  align-items: center; /* Alinea verticalmente el logo, texto y navbar */
+}
+
+.hero-text {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #f2f2f7;
+  margin: 0;
+}
+
+.italic {
+  font-style: italic;
+  color: #f2f2f7;
+}
+
+.subtext {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+  line-height: 1.5;
+  color: #c7c7cc;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #1db954;
+  background-color: transparent;
+  color: #1db954;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #1db954;
+  color: #030504;
 }
 
 .logo-container {
@@ -24,10 +71,10 @@ html {
 }
 
 .logo {
-  height: 46 px;
+  height: 46px;
   width: 46px;
   margin-left: 32px;
-  margin-right: 32px; /* Espacio entre logo y texto */
+  margin-right: 32px;
 }
 
 .logo-text {
@@ -38,7 +85,7 @@ html {
 
 .navbar {
   display: flex;
-  margin-left: 32px; /* Espacio entre logo y navbar */
+  margin-left: 16px; /* Ajusta el espacio entre logo y navbar si es necesario */
 }
 
 .nav-links {
@@ -50,7 +97,7 @@ html {
 }
 
 .nav-links li {
-  margin-right: 24px; /* Espacio entre los elementos del navbar */
+  margin-right: 24px;
 }
 
 .nav-links a {
@@ -58,13 +105,10 @@ html {
   color: #f2f2f7;
 }
 
-.nav-links a:hover {
-  opacity: 1;
-}
-
 .buttons-container {
   display: flex;
   align-items: center;
+  margin-right: 32px;
 }
 
 .buttons-container button {
@@ -77,19 +121,14 @@ html {
   font-size: 16px;
 }
 
-.buttons-container button:hover {
-  opacity: 1.5;
-}
-
 .sign-in {
   background: none;
-  border: 1px solid #058c42;
-  color: #058c42;
+  border: 1px solid #1db954;
+  color: #1db954;
   margin-right: 16px;
-  background-color: none;
 }
 
 .sign-up {
-  background-color: #058c42;
-  margin-right: 32px;
+  background-color: #1db954;
+  color: #030504;
 }
