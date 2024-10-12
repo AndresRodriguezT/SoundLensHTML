@@ -20,6 +20,7 @@ html {
 .main-content {
   margin-left: 119px;
   margin-top: 105px;
+  position: relative; /* Añadir esta línea */
 }
 
 .left-content {
@@ -179,4 +180,16 @@ html {
   z-index: 1;
   top: 165px;
   left: 138px;
+}
+
+.rectangle-overlay {
+  position: absolute; /* Permite superponer el div */
+  top: 50%; /* Ajusta la posición vertical */
+  left: 50%; /* Ajusta la posición horizontal */
+  transform: translate(-50%, -50%); /* Centra el rectángulo */
+  width: 300px; /* Ancho del rectángulo */
+  height: 200px; /* Alto del rectángulo */
+  background-color: rgba(255, 0, 0, 0.7); /* Color de fondo con transparencia */
+  z-index: 2; /* Asegúrate de que se superponga sobre otros elementos */
+  border-radius: 10px; /* Bordes redondeados, opcional */
 }
