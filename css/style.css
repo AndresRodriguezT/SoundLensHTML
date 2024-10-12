@@ -142,3 +142,42 @@ html {
 .sign-up:hover {
   background-color: #058c42;
 }
+
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 108px;
+  margin-top: 96px;
+}
+
+.text-content {
+  max-width: 50%;
+  margin-right: 180px;
+}
+
+.phone-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 180px;
+  position: relative;
+}
+
+.phone {
+  width: px;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+}
+
+.phone:nth-of-type(1) {
+  z-index: 0;
+  top: -10px;
+  left: 0px;
+}
+
+.phone:nth-of-type(2) {
+  z-index: 1;
+  top: 150px;
+  left: 125px;
+}
