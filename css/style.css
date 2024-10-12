@@ -13,13 +13,13 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 35px;
   background-color: #030504;
 }
 
 .main-content {
-  margin-left: 108px;
-  margin-top: 96px;
+  margin-left: 119px;
+  margin-top: 105px;
 }
 
 .left-content {
@@ -28,7 +28,7 @@ html {
 }
 
 .hero-text {
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 1.2;
   color: #c7c7cc;
@@ -41,25 +41,25 @@ html {
 }
 
 .subtext {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-  margin-top: 38px;
-  margin-left: 14px;
+  margin-top: 42px;
+  margin-left: 15px;
   line-height: 1.5;
   color: #c7c7cc;
 }
 
 .cta-button {
   display: inline-block;
-  margin-top: 32px;
-  margin-left: 12px;
-  padding: 12px 24px;
-  font-size: 18px;
+  margin-top: 35px;
+  margin-left: 13px;
+  padding: 13px 26px;
+  font-size: 20px;
   font-weight: 600;
   border: 2px solid var(--primaryColor);
   background-color: transparent;
   color: var(--primaryColor);
-  border-radius: 8px;
+  border-radius: 9px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
@@ -76,14 +76,14 @@ html {
 }
 
 .logo {
-  height: 46px;
-  width: 46px;
-  margin-left: 32px;
-  margin-right: 32px;
+  height: 51px;
+  width: 51px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .logo-text {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 900;
   color: #f2f2f7;
 }
@@ -97,13 +97,13 @@ html {
 .nav-links {
   display: flex;
   list-style: none;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
 }
 
 .nav-links li {
-  margin-right: 32px;
+  margin-right: 35px;
 }
 
 .nav-links a {
@@ -121,10 +121,10 @@ html {
   font-weight: 600;
   border: none;
   color: #e5e5ea;
-  padding: 8px 16px;
-  border-radius: 5px;
+  padding: 9px 18px;
+  border-radius: 6px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .sign-in {
@@ -159,12 +159,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 180px;
+  margin-left: 46px;
   position: relative;
 }
 
 .phone {
-  width: px;
   height: auto;
   object-fit: contain;
   position: absolute;
@@ -172,12 +171,12 @@ html {
 
 .phone:nth-of-type(1) {
   z-index: 0;
-  top: -10px;
+  top: -11px;
   left: 0px;
 }
 
 .phone:nth-of-type(2) {
   z-index: 1;
-  top: 150px;
-  left: 125px;
+  top: 165px;
+  left: 138px;
 }
